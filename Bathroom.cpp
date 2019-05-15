@@ -1,12 +1,4 @@
-/*********************************************************************
-** Program Name: Sock Search Game (CS162 Final Project)
-** Author: Becky Chao
-** Date: 3/18/18
-** Description: This file defines the Bathroom class and creates
-a simulation of a Bathroom (derived from the Space class), with options
-to search the room for valuable items, walk to the next room, and check
-player status.
-*********************************************************************/
+
 
 #include "Bathroom.hpp"
 
