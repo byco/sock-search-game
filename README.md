@@ -1,16 +1,20 @@
+Sock Search
+
+A text-based game written in C++.
+
 The goal is to simply search the house for two separate socks. 
 
 Play a live demo here: https://repl.it/@byco/Sock-Search-Game
 
 (Be sure to make the black terminal window on the right as wide as possible so the house map can be properly viewed, then click RUN at the top.)
 
-GAME INTRODUCTION
+Game Introduction
 
-The socks will be randomly placed in one or two random locations throughout the house. You may need to have the flashlight and/or the key in order to locate the socks; if the sock(s) are in the washing room, you need to find the flashlight first before entering the room, and if the sock(s) are in the closet, you need to find the key before accessing the closet.
+	The socks will be randomly placed in one or two random locations throughout the house. You may need to have the flashlight and/or the key in order to locate the socks; if the sock(s) are in the washing room, you need to find the flashlight first before entering the room, and if the sock(s) are in the closet, you need to find the key before accessing the closet.
 
-Sadly, your house is a mess and you don’t have a clue where the key, flashlight or socks are (though for testing purposes, you know exactly where they are!).
+	Sadly, your house is a mess and you don’t have a clue where the key, flashlight or socks are (though for testing purposes, you know exactly where they are!).
 
-The game either ends when you walk over 100 steps or find both socks.
+	The game either ends when you walk over 100 steps or find both socks.
 
 Goal
 
@@ -98,18 +102,3 @@ Print map
 
 	Map of house
 	Each room requires 10 steps to walk to next room
-
-
-                          HOUSE MAP
-----------------------------------------------------------------
-|                   |                     |                    |
-|     Bedroom               Closet        |    Washing Room    |
-|     (start)             (needs key)     | (needs flashlight) |
-|                   |                     |                    |
-|------      -------------------------------------      -------|
-|                   |                     |                    |
-|     Bathroom              Lounge               Kitchen       |
-|                                                              |
-|                   |                     |                    |
-----------------------------------------------------------------
-
