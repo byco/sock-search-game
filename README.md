@@ -2,7 +2,7 @@
 
 A text-based game written in C++.
 
-The goal is to simply search the house for two separate socks. 
+The player must find two missing socks or face the consequences!
 
 Play a live demo here: https://repl.it/@byco/Sock-Search-Game
 
