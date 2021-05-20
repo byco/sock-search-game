@@ -111,4 +111,4 @@ void Bathroom::moveRoom(Player& p, Space* house[][3])
         setCurrentRoom(east);
         currentRoom->spaceMenu(p, house);
     }
-}# sockSearch
+}
